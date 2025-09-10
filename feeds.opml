@@ -7,7 +7,7 @@
     const el = document.getElementById('feed-list');
     if (!el) return;
 
-    const opmlUrl = "https://raw.githubusercontent.com/folkmoss/folkmoss/main/feeds.opml";
+    const opmlUrl = "https://raw.githubusercontent.com/folkmoss/bbstuff/main/feeds.opml";
 
     try {
       const r = await fetch(opmlUrl);
@@ -35,3 +35,4 @@
   });
 })();
 </script>
+
